@@ -5,7 +5,7 @@ function convert() {
   let result;
 
   if (fromUnit === toUnit) {
-    result = value; 
+    result = 'select a different unit'; 
   } else {
     // Conversion logic (calculations added)
     if (fromUnit === 'mph' && toUnit === 'kph') {
