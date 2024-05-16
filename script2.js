@@ -12,9 +12,9 @@ function convert() {
             result = value * 1.60934;
         } else if (fromUnit === 'kph' && toUnit === 'mph') {
             result = value / 1.60934;
-        } else if (fromUnit === 'min/mi' && toUnit === 'mi/nkm') {
+        } else if (fromUnit === 'min/mi' && toUnit === 'min/km') {
             result = value * 1.60934;
-        } else if (fromUnit === 'min/km' && toUnit === 'min/mile') {
+        } else if (fromUnit === 'min/km' && toUnit === 'min/mi') {
             result = value / 1.60934;
         } else if (fromUnit === 'mph' && toUnit === 'min/mi') {
             result = 60 / value;
