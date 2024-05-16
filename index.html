@@ -9,16 +9,17 @@
     <h2>Pace/Speed Converter</h2>
     <input type="number" id="value" placeholder="Enter value">
     <select id="fromUnit">
+        <option value="min/mi">Minutes per mile (min/mi)</option> 
+      <option value="min/km">Minutes per kilometer (min/km)</option>
       <option value="mph">Miles per hour (mph)</option>
       <option value="kph">Kilometers per hour (kph)</option>
-      <option value="min/mi">Minutes per mile (min/mi)</option> 
-      <option value="min/km">Minutes per kilometer (min/km)</option>
+    
     </select>
     <select id="toUnit">
-      <option value="kph">Kilometers per hour (kph)</option>
-      <option value="mph">Miles per hour (mph)</option>
       <option value="min/km">Minutes per kilometer (min/km)</option>
       <option value="min/mi">Minutes per mile (min/mi)</option>
+      <option value="kph">Kilometers per hour (kph)</option>
+      <option value="mph">Miles per hour (mph)</option>
     </select>
     <button onclick="convert()">Convert</button>
 
