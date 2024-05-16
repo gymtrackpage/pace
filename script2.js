@@ -12,17 +12,17 @@ function convert() {
       result = value * 1.60934;
     } else if (fromUnit === 'kph' && toUnit === 'mph') {
       result = value / 1.60934;
-    } else if (fromUnit === 'minmile' && toUnit === 'minkm') {
+    } else if (fromUnit === 'min/mile' && toUnit === 'min/km') {
       result = value * 1.60934;
-    } else if (fromUnit === 'minkm' && toUnit === 'minmile') {
+    } else if (fromUnit === 'min/km' && toUnit === 'min/mile') {
       result = value / 1.60934;
-    } else if (fromUnit === 'mph' && toUnit === 'minmile') {
+    } else if (fromUnit === 'mph' && toUnit === 'min/mile') {
       result = 60 / value;
-    } else if (fromUnit === 'minmile' && toUnit === 'mph') {
+    } else if (fromUnit === 'min/mile' && toUnit === 'mph') {
       result = 60 / value;
-    } else if (fromUnit === 'kph' && toUnit === 'minkm') {
+    } else if (fromUnit === 'kph' && toUnit === 'min/km') {
       result = 60 / value;
-    } else if (fromUnit === 'minkm' && toUnit === 'kph') {
+    } else if (fromUnit === 'min/km' && toUnit === 'kph') {
       result = 60 / value;
     }
   }
