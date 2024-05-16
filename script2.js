@@ -28,8 +28,7 @@ function convert() {
             result = (60 / value) * 1.60934; // Convert mph to min/mi, then to min/km
         } else if (fromUnit === 'min/km' && toUnit === 'mph') {
             result = 60 / (value / 1.60934); // Convert min/km to min/mi, then to mph
-        } 
-         } else if (fromUnit === 'kph' && toUnit === 'min/mi') {
+        }  else if (fromUnit === 'kph' && toUnit === 'min/mi') {
             result = (value / 1.60934) * 60; // Convert km to miles, then to min/mi
         } 
     }
