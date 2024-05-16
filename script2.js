@@ -29,7 +29,7 @@ function convert() {
     } else if (fromUnit === 'min/km' && toUnit === 'mph') {
       result = 60 / (value / 1.60934); 
     } else if (fromUnit === 'km' && toUnit === 'min/mi') {
-      result = (value / 1.60934) * 60; 
+     result = 60 / (value / 1.60934); 
     } 
   }
 
